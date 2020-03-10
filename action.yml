@@ -1,0 +1,17 @@
+name: 'area of a triangle'
+description: 'Calculate the area of a triangle'
+inputs:
+  base:
+    description: 'base'
+    required: true
+    default: 8
+  height:
+    description: 'height'
+    required: true
+    default: 8
+outputs:
+  area:
+    description: 'the area of the triangle'
+runs:
+  using: 'node12'
+  main: 'index.js'
