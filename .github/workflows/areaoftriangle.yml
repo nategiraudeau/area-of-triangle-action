@@ -1,0 +1,16 @@
+name: Area of Triangle
+
+on: push
+
+jobs:
+  my-job:
+    name: Find Area
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print area
+      env:
+        WIDTH: 8ft
+        HEIGHT: 8ft
+        AREA: 32 square feet
+      run: |
+        echo The area of the triangle that is $WIDTH wide and $HEIGHT tall is $AREA.
