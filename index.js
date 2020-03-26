@@ -8,9 +8,7 @@ try {
   let area = width*height;
   console.log(`the area of the triangle is ${area}!`);
   core.setOutput("area", area);
-
-  const payload = JSON.stringify(github.context.payload, undefined, 2)
-  console.log(`The event payload: ${payload}`);
+  
 } catch (error) {
   core.setFailed(error.message);
 }
