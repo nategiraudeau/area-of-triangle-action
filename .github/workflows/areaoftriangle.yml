@@ -1,18 +1,15 @@
-name: Area of Triangle
-
-on: push
+on: [push]
 
 jobs:
-  my-job:
-    name: Find Area
+  area_job:
     runs-on: ubuntu-latest
+    name: A job to calculate area
     steps:
-    - name: Print area
-      env:
-        WIDTH: 8ft
-        HEIGHT: 8ft
-        AREA: 32 square feet
-      run: |
-        echo calculating...
-        echo ""
-        echo The area of the triangle that is $WIDTH wide and $HEIGHT tall is $AREA.
+    - name: Hello world action step
+      id: hello
+      uses: NateGiraudeau/area-of-triangle-action@v1
+      with:
+        width: 8
+        height: 8
+    - name: Get the output time
+      run: echo "The time was ${{ steps.hello.outputs.time }}"
