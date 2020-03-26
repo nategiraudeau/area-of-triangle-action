@@ -1,6 +1,6 @@
 # area of triangle javaScript action
 
-This action prints the area of the triangle that has the width and the height entered.
+This action calculates the area of a triangle.
 
 ## Inputs
 
