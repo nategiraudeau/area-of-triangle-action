@@ -21,6 +21,7 @@ The area of the triangle.
 
 `uses: area-of-triangle-action@v1`
 
-`with:
-  width: 8
-  height: 8`
+`with:`
+
+  `width: 8`
+  `height: 8`
