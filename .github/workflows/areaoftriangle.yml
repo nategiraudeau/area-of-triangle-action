@@ -13,4 +13,6 @@ jobs:
         HEIGHT: 8ft
         AREA: 32 square feet
       run: |
+        echo calculating...
+        echo ""
         echo The area of the triangle that is $WIDTH wide and $HEIGHT tall is $AREA.
