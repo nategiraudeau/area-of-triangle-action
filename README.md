@@ -23,5 +23,6 @@ The area of the triangle.
 
 `with:`
 
-  `width: 8`
-  `height: 8`
+` width: 8`
+
+` height: 8`
