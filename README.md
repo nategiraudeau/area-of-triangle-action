@@ -19,7 +19,7 @@ The area of the triangle.
 
 ## Example usage
 
-`uses: area-of-triangle-action@v1`
+`uses: area-of-triangle-action@v3`
 
 `with:`
 
