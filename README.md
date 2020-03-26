@@ -20,6 +20,7 @@ The area of the triangle.
 ## Example usage
 
 `uses: area-of-triangle-action@v1
+
 with:
   width: 8
   height: 8`
