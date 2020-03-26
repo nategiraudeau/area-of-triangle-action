@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to calculate area
     steps:
-    - name: Hello world action step
-      id: hello
+    - name: calculate area action step
+      id: area
       uses: NateGiraudeau/area-of-triangle-action@v1
       with:
         width: 8
         height: 8
     - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
+      run: echo "The time was ${{ steps.area.outputs.time }}"
