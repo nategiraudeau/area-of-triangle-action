@@ -19,8 +19,8 @@ The area of the triangle.
 
 ## Example usage
 
-`uses: area-of-triangle-action@v1
+`uses: area-of-triangle-action@v1`
 
-with:
+`with:
   width: 8
   height: 8`
