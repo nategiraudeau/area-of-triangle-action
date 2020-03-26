@@ -6,7 +6,7 @@ jobs:
     name: A job to calculate area
     steps:
     - name: calculate area action step
-      id: area
+      id: area 
       uses: NateGiraudeau/area-of-triangle-action@v1
       with:
         width: 8
